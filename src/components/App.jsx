@@ -5,7 +5,7 @@ import NewTicketControl from './NewTicketControl';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 
-class App extends React.Component {
+class App extends React.Component { 
 
   constructor(props) {
     super(props);
