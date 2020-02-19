@@ -1,6 +1,7 @@
 {
-  "name": "react-app",
+  "name": "react-help-queue-example",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/** src/**/**; exit 0",
@@ -19,10 +20,12 @@
   },
   "homepage": "https://github.com/epicodus-lessons/react-help-queue-example#readme",
   "dependencies": {
+    "moment": "^2.18.1",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.0.0"
+    "react-router-dom": "^4.0.0",
+    "uuid": "^3.2.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -36,6 +39,5 @@
     "react-hot-loader": "^3.0.0-beta.7",
     "webpack": "^3.4.0",
     "webpack-dev-server": "^2.5.0"
-  },
-  "description": ""
+  }
 }
